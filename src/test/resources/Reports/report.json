@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successfull Login with valid Credentials",
+        "description": "",
+        "id": "validating-login-functionality-of-adactin;successfull-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6848849400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 800036700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Valid username and password",
+            "match": {
+              "location": "StepDefinition.user_enters_Valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Successfull Login and HomePage is visible",
+            "match": {
+              "location": "StepDefinition.successfull_Login_and_HomePage_is_visible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Login Functionality of Adactin",
+    "description": "",
+    "id": "validating-login-functionality-of-adactin",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Login.Feature",
+    "tags": []
+  }
+]
